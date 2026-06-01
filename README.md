@@ -21,6 +21,7 @@
 | `other`      | Письма, не попавшие ни в одну из категорий        |
 
 ## Структура проекта
+```
 hakaton-email/
 ├── inbox/
 ├── src/
@@ -33,7 +34,7 @@ hakaton-email/
 │   └── test_classifier.py
 ├── run.sh
 └── README.md
-
+```
 ## Запуск
 
 ```bash
