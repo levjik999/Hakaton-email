@@ -1,4 +1,6 @@
+import sys
 import os
+sys.path.insert(0, os.path.dirname(__file__))
 from email_reader import EmailReader
 from classifier import Classifier
 from file_handler import FileHandler
