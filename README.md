@@ -45,7 +45,7 @@ bash run.sh
 Или напрямую:
 
 ```bash
-python3 src/main.py
+py src/main.py
 ```
 
 ## Запуск тестов
