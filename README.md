@@ -33,6 +33,7 @@ hakaton-email/
 ├── tests/
 │   └── test_classifier.py
 ├── run.sh
+├── .gitignore
 └── README.md
 ```
 ## Запуск
