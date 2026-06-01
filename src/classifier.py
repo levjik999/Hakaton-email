@@ -1,5 +1,5 @@
 class Classifier:
-    def init(self):
+    def __init__(self):
         self.rules = {
             "spam": [
                 "заблокирован", "подтвердите пароль", "выиграли",

@@ -2,7 +2,7 @@ import os
 import shutil
 CATEGORIES = ["incidents", "requests", "monitoring", "spam", "other"]
 class FileHandler:
-    def init(self, base_path):
+    def __init__(self, base_path):
         self.base_path = base_path
         for cat in CATEGORIES:
             folder = os.path.join(base_path, cat)
